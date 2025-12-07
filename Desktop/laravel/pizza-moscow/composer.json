@@ -1,0 +1,23 @@
+{
+    "name": "platon4ik12rus/pizza-moscow",
+    "description": "Московская пиццерия — реализация",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "platon4ik12rus/pizzaandstore": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/platon4ik12rus/pizzaandstore.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PizzaMoscow\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
